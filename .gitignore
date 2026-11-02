@@ -1,0 +1,26 @@
+# ---- 安路 TD 编译中间产物（体积大、可由源码重建）----
+prj/log/
+prj/yuanshen_hdmi_Runs/**/*.db
+prj/yuanshen_hdmi_Runs/**/*.log
+prj/yuanshen_hdmi_Runs/**/*.logw
+prj/yuanshen_hdmi_Runs/**/*.ts
+prj/yuanshen_hdmi_Runs/**/*.timing
+prj/yuanshen_hdmi_Runs/**/*.qor
+prj/yuanshen_hdmi_Runs/**/*.area
+prj/yuanshen_hdmi_Runs/**/*.status
+prj/yuanshen_hdmi_Runs/**/*.bid
+prj/yuanshen_hdmi_Runs/**/*.prj
+prj/yuanshen_hdmi_Runs/**/.f
+
+# ---- 仿真产物 ----
+sim/work/
+*.vcd
+*.wlf
+*.fsdb
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
