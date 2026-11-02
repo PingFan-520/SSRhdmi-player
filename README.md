@@ -8,7 +8,6 @@
 | `constraints/` | 引脚约束 `board.adc` 与时序约束 `*.sdc` | 必需 |
 | `prj/yuanshen_hdmi.al` | TD 工程文件（器件、源文件列表、编译选项） | 必需 |
 | `sim/` | 20+ 个测试台与批处理（`run_*.bat`），不含 work 目录 | 调试用 |
-| `docs/` | 25 篇设计文档 + 《作品报告_万象智屏.docx》 + 配图 | 答辩用 |
 | `bit/*.bit` | 已综合布线的码流，可直接烧 Flash | 上板用 |
 | `sd_card/` | 已转好的 5 张 960×540 BMP，拷到卡根目录即可 | 可选 |
 
@@ -18,7 +17,7 @@
 :: 综合（约 40 s）
 cd prj\yuanshen_hdmi_Runs\syn_1
 E:\TD\bin\td_commands_prompt.exe yuanshen_hdmi.tcl
-
+（路径修改为自己的）
 :: 布局布线（约 90~280 s）
 cd ..\phy_1
 E:\TD\bin\td_commands_prompt.exe yuanshen_hdmi.tcl
